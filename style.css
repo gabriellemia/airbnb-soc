@@ -10,7 +10,7 @@
 }
 
 .main-container {
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .anywhere {
@@ -23,6 +23,7 @@
 }
 
 .search-section {
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,13 +32,14 @@
 .search-btn {
     display: flex;
     align-items: center;
-    width: 80%;
-    min-width: 20%;
+    max-width: 80%;
+    min-width: 80%;
     max-height: 50px;
+    min-height: 50px;
     padding: 5px;
     border-radius: 50px;
     border: none;
-    box-shadow: 0 2px 8px rgba(172, 171, 171, 0.692);
+    box-shadow: 0 2px 8px rgba(189, 189, 189, 0.582);
     background-color: white;
     text-align: left;
     line-height: 20px;
@@ -62,7 +64,29 @@
 .filter-img {
     width: 20px;
     height: 20px;
-    padding: 10px;
-   
-    
+    padding: 10px; 
+}
+
+.menu-bar {
+    width: 100%;
+    display: flex;
+    overflow-y: auto;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.082);
+    padding-bottom: 20px;
+}
+
+.tab img {
+    width: 25px;
+    filter: opacity(0.6);
+}
+
+.tab {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+    white-space: no-wrap;
 }
