@@ -183,3 +183,64 @@
     margin-top: 20px;
     font-size: 16px;
  }
+
+ .future-getaways {
+    background-color: rgba(240, 240, 240, 0.589);
+    padding-top: 50px;
+    padding-left: 25px;
+ }
+
+ .future-getaways p {
+    font-size: 22px;
+    padding-bottom: 20px;
+ }
+
+ .getaway-menu {
+    display: flex;
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.801);
+ }
+
+ .getaway-menu button {
+    width: 200px;
+    text-wrap: nowrap;
+    margin-right: 25px;
+    font-size: 15px;
+    border: none;
+    color: rgb(116, 116, 116);
+    background-color: rgba(240, 240, 240, 0.007);
+ }
+
+ .getaway-menu button:hover {
+    color: black;
+ }
+
+ .getaway-place {
+    display: flex;
+    padding-top: 20px;
+ }
+
+ .getaway-place p {
+    padding-top: 10px;
+    font-size: 14px;
+ }
+
+ .smaller {
+    color: rgb(141, 141, 141);
+ }
+
+ .column-1 {
+    flex-direction: row;
+
+ }
+
+ .column-2 {
+    flex-direction: row;
+    padding-left: 80px;
+ }
+
+ .arrow {
+    font-size: 20px;
+ }
