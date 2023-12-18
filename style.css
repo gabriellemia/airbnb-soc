@@ -145,6 +145,12 @@
 .right {
     float: right;
 }
+
+.star {
+    font-size: 17px;
+    padding-right: 3px;
+}
+
  .info {
     color: grey;
  }
