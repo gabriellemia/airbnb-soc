@@ -91,8 +91,13 @@
     display: flex;
     overflow-y: auto;
     box-shadow: 0 4px 5px -2px rgba(126, 126, 126, 0.219);
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     padding-left: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.menu-bar::-webkit-scrollbar {
+    display: none;
 }
 
 .tab img {
@@ -110,6 +115,7 @@
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 20px;
+    padding-bottom: 15px;
     border: none;
     background-color: white;
     font-size: 12px;
@@ -119,6 +125,7 @@
 
 .tab:hover {
     color: black;
+    border-bottom: 2px solid black;
 }
 
 .image-section {
@@ -223,8 +230,13 @@
     display: flex;
     width: 100%;
     overflow-y: auto;
-    padding-bottom: 15px;
     border-bottom: 1px solid rgba(201, 201, 201, 0.801);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+ }
+
+ .getaway-menu::-webkit-scrollbar {
+    display: none;
  }
 
  .getaway-menu button {
@@ -232,6 +244,7 @@
     width: 200px;
     text-wrap: nowrap;
     margin-right: 25px;
+    padding-bottom: 15px;
     font-size: 15px;
     border: none;
     color: rgb(97, 97, 97);
@@ -240,6 +253,7 @@
 
  .getaway-menu button:hover {
     color: black;
+    border-bottom: 2px solid black;
  }
 
  .getaway-place {
