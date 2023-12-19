@@ -1,6 +1,12 @@
 @font-face {
     font-family: airbnbfont;
-    src: url(airbnbcereal_w_md-webfont.woff2);
+    src: url(AirbnbCereal_W_Lt.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: airbnbmed;
+    src: url(AirbnbCereal_W_Md.otf);
 }
 
 * {
@@ -22,11 +28,14 @@
 }
 
 .anywhere {
-    font-size: 15px;
+    font-size: 14px;
+    font-family: airbnbmed;
 }
 
 .any-week {
-    color: grey;
+    color: rgb(131, 130, 130);
+    font-size: 12px;
+    font-weight: 600;
     
 }
 
@@ -51,13 +60,13 @@
     box-shadow: 0 2px 8px rgba(189, 189, 189, 0.582);
     background-color: white;
     text-align: left;
-    line-height: 20px;
+    line-height: 17px;
 }
 
 .search-img {
     width: 25px;
     height: 25px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .filter-btn {
@@ -81,7 +90,7 @@
     width: 100%;
     display: flex;
     overflow-y: auto;
-    box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.219);
+    box-shadow: 0 4px 5px -2px rgba(126, 126, 126, 0.219);
     padding-bottom: 20px;
     padding-left: 10px;
 }
@@ -89,7 +98,7 @@
 .tab img {
     width: 25px;
     filter: opacity(0.6);
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .tab img:hover {
@@ -97,6 +106,7 @@
 }
 
 .tab {
+    font-family: airbnbmed;
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 20px;
@@ -123,6 +133,7 @@
 
 .img-block {
     position: relative;
+
 }
 
 .prop-img {
@@ -142,6 +153,14 @@
     padding-right: 10px;
 }
 
+.title {
+    font-family: airbnbmed;
+}
+
+.num-bold {
+    font-weight: bold;
+}
+
 .right {
     float: right;
 }
@@ -152,7 +171,8 @@
 }
 
  .info {
-    color: grey;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
  }
 
  .price {
@@ -167,13 +187,16 @@
 
  .continue {
     text-align: center;
+   
  }
 
  .continue p {
     font-size: 18px;
+    font-family: airbnbmed;
  }
 
  .show-btn {
+    font-family: airbnbmed;
     width: 135px;
     height: 50px;
     background-color: black;
@@ -192,6 +215,7 @@
 
  .future-getaways p {
     font-size: 22px;
+    font-family: airbnbmed;
     padding-bottom: 20px;
  }
 
@@ -204,12 +228,13 @@
  }
 
  .getaway-menu button {
+    font-family: airbnbmed;
     width: 200px;
     text-wrap: nowrap;
     margin-right: 25px;
     font-size: 15px;
     border: none;
-    color: rgb(116, 116, 116);
+    color: rgb(97, 97, 97);
     background-color: rgba(240, 240, 240, 0.007);
  }
 
@@ -220,6 +245,7 @@
  .getaway-place {
     display: flex;
     padding-top: 20px;
+    padding-bottom: 20px;
  }
 
  .getaway-place p {
@@ -228,7 +254,7 @@
  }
 
  .smaller {
-    color: rgb(141, 141, 141);
+    color: rgb(100, 100, 100);
  }
 
  .column-1 {
@@ -243,4 +269,28 @@
 
  .arrow {
     font-size: 20px;
+ }
+
+ .info-sections {
+    border-top: 1px solid rgba(201, 201, 201, 0.801);
+    background-color: rgba(240, 240, 240, 0.589);
+ }
+
+ .inner-section {
+    font-size: 14px;
+    padding-left: 25px;
+    padding-top: 15px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    
+ }
+
+ .info-title {
+    font-family: airbnbmed;
+ }
+
+ hr {
+    height: 1px;
+    background-color: rgba(201, 201, 201, 0.801);
+    border: none;
  }
