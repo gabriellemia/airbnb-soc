@@ -308,3 +308,35 @@
     background-color: rgba(201, 201, 201, 0.801);
     border: none;
  }
+
+ .bold-foot {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 15px;
+ }
+
+ .eng {
+    font-family: airbnbmed;
+    margin-left: 8px;
+ }
+
+ .gbp {
+    font-family: airbnbmed;
+    margin-left: 25px;
+ }
+
+ .footer {
+    background-color: rgba(240, 240, 240, 0.589);
+    padding-left: 25px;
+    padding-bottom: 25px;
+ }
+
+ .globe {
+    width: 19px;
+ }
+
+ .last {
+    font-size: 14px;
+    line-height: 25px;
+ }
