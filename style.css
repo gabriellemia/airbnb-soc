@@ -130,7 +130,7 @@
 
 .image-section {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     margin: 25px;
     margin-top: 0;
     line-height: 20px;
@@ -145,8 +145,8 @@
 
 .prop-img {
     object-fit: cover;
-    width: 90vw;
-    height: 90vw;
+    width: 87vw;
+    height: 87vw;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -157,7 +157,7 @@
     right: 0px;
     width: 9%;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .title {
