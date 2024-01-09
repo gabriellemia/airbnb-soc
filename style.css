@@ -138,17 +138,20 @@
     padding-top: 175px;
 }
 
-.img-block {
-    position: relative;
-
+.property-block {
+   position: relative;
+   margin-bottom: 40px;
 }
 
-.prop-img {
+.img-block {
     object-fit: cover;
     width: 87vw;
     height: 87vw;
     border-radius: 10px;
     margin-bottom: 10px;
+    display: flex;
+    overflow-x: auto;
+    
 }
 
 .heart {
@@ -186,10 +189,6 @@
     text-decoration: underline;
     margin-top: 10px;
     font-weight: 100;
- }
-
- .property-block {
-    margin-bottom: 40px;
  }
 
  .continue {
