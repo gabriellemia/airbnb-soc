@@ -150,8 +150,13 @@
     border-radius: 10px;
     margin-bottom: 10px;
     display: flex;
-    overflow-x: auto;
-    
+    overflow-x: auto; 
+}
+
+.img-block img {
+   object-fit: cover;
+   width: 87vw;
+   height: 87vw;
 }
 
 .heart {
