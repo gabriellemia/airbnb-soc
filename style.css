@@ -164,6 +164,7 @@
     right: 0px;
     width: 8%;
     padding-top: 5%;
+    padding-right: 2vw;
 }
 
 .title {
@@ -301,7 +302,6 @@
     padding-top: 15px;
     line-height: 30px;
     padding-bottom: 10px;
-    
  }
 
  .info-title {
@@ -346,3 +346,48 @@
     font-size: 14px;
     line-height: 25px;
  }
+
+ .sticky-menu {
+   background-color: rgb(255, 255, 255);
+   position: sticky;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   transition: transform 0.3s;
+   z-index: 1;
+ }
+
+ .sticky-btns {
+   display: flex;
+   justify-content: center;
+   
+ }
+
+ .sticky-btns button {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   border: none;
+   padding: 10px 20px;
+   font-size: 11px;
+   color: rgb(129, 129, 129)
+ }
+
+ .sticky-menu .explore {
+   color: #E81948;
+ }
+
+ .sticky-btns img {
+   width: 22px;
+   padding-bottom: 4px;
+ }
+
+ .login img {
+   filter: opacity(0.5);
+ }
+
+ .wish img {
+   filter: opacity(0.7);
+ }
+
