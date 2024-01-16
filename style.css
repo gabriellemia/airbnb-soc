@@ -29,7 +29,7 @@
 
 .anywhere {
     font-size: 14px;
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
 }
 
 .any-week {
@@ -111,7 +111,7 @@
 }
 
 .tab {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 20px;
@@ -168,7 +168,7 @@
 }
 
 .title {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
 }
 
 .num-bold {
@@ -203,11 +203,11 @@
 
  .continue p {
     font-size: 18px;
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
  }
 
  .show-btn {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
     width: 135px;
     height: 50px;
     background-color: black;
@@ -227,7 +227,7 @@
 
  .future-getaways p {
     font-size: 22px;
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
     padding-bottom: 20px;
  }
 
@@ -245,7 +245,7 @@
  }
 
  .getaway-menu button {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
     width: 200px;
     text-wrap: nowrap;
     margin-right: 25px;
@@ -305,7 +305,7 @@
  }
 
  .info-title {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
  }
 
  hr {
@@ -322,12 +322,12 @@
  }
 
  .eng {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
     margin-left: 8px;
  }
 
  .gbp {
-    font-family: airbnbmed;
+    /* font-family: airbnbmed; */
     margin-left: 25px;
  }
 
@@ -389,5 +389,18 @@
 
  .wish img {
    filter: opacity(0.7);
+ }
+
+ .anywhere,
+ .tab,
+ .title,
+ .continue p,
+ .show-btn,
+ .future-getaways p,
+ .getaway-menu button,
+ .info-title,
+ .eng,
+ .gbp {
+   font-family: airbnbmed;
  }
 
