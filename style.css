@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-/* .main-container {
+/* main {
     position: relative;
 } */
 
@@ -167,9 +167,9 @@
     padding-right: 2vw;
 }
 
-.title {
-    /* font-family: airbnbmed; */
-}
+/* .title {
+    font-family: airbnbmed;
+} */
 
 .num-bold {
     font-weight: bold;
@@ -304,9 +304,9 @@
     padding-bottom: 10px;
  }
 
- .info-title {
-    /* font-family: airbnbmed; */
- }
+ /* .info-title {
+    font-family: airbnbmed;
+ } */
 
  hr {
     height: 1px;
