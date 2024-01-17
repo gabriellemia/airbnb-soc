@@ -139,8 +139,14 @@
 }
 
 .property-block {
-   position: relative;
    margin-bottom: 50px;
+}
+
+.heart-block {
+   position: relative;
+   width: 90vw;
+   height: 90vw;
+   margin-bottom: 10px;
 }
 
 .img-block {
@@ -160,11 +166,11 @@
 
 .heart {
     position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 8%;
-    padding-top: 5%;
-    padding-right: 2vw;
+    top: 12px;
+    right: 12px;
+    width: 30px;
+    /* padding-top: 5%;
+    padding-right: 2%; */
 }
 
 /* .title {
