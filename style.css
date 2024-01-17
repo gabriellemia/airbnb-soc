@@ -50,14 +50,15 @@
 .search-btn {
     display: flex;
     align-items: center;
-    max-width: 80%;
-    min-width: 70%;
+    max-width: 90%;
+    min-width: 75%;
     max-height: 55px;
     min-height: 55px;
     padding: 5px;
+    margin-left: 15px;
     border-radius: 50px;
-    border: none;
-    box-shadow: 0 2px 8px rgba(189, 189, 189, 0.582);
+    border: 1px solid rgba(231, 231, 231, 0.436);
+    box-shadow: 0 2px 8px rgba(189, 189, 189, 0.456);
     background-color: white;
     text-align: left;
     line-height: 17px;
@@ -66,24 +67,31 @@
 .search-img {
     width: 25px;
     height: 25px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .filter-btn {
+    position: relative;
     border-radius: 50%;
-    max-width: 40px;
-    max-height: 40px;
-    border: 1px solid rgba(172, 171, 171, 0.829);
+    min-width: 40px;
+    min-height: 40px;
+    border: 1px solid rgba(168, 168, 168, 0.829);
     background-color: white; 
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 5px;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .filter-img {
-    width: 20px;
-    height: 20px;
-    padding: 10px; 
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
 }
 
 .menu-bar {
@@ -153,7 +161,7 @@
     object-fit: cover;
     width: 90vw;
     height: 90vw;
-    border-radius: 10px;
+    border-radius: 14px;
     margin: 0 25px 10px 0;
     display: flex;
     overflow-x: auto;
@@ -171,6 +179,16 @@
     width: 30px;
     /* padding-top: 5%;
     padding-right: 2%; */
+}
+
+.guest-fav {
+   position: absolute;
+   top: 15px;
+   left: 15px;
+   border-radius: 50px;
+   background-color: white;
+   text-wrap: nowrap;
+   padding: 5px 10px;
 }
 
 /* .title {
@@ -406,7 +424,8 @@
  .getaway-menu button,
  .info-title,
  .eng,
- .gbp {
+ .gbp,
+ .guest-fav {
    font-family: airbnbmed;
  }
 
